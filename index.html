@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farhan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <div class="bg-animation"></div>
+
+    <nav id="navbar">
+      <div class="nav-container">
+        <div class="logo">Farhan A. Nafis</div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#technical-skills">Technical Skills</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-subtitle fade-in">Hello, I'm</div>
+        <h1 class="hero-title fade-in">Farhan Ahmad Nafis</h1>
+        <p class="hero-description fade-in">
+          Computer Vision & Robotics Researcher passionate about autonomous
+          systems, human-robot interaction, and cutting-edge AI and Robotics technologies.
+        </p>
+        <div class="hero-buttons fade-in">
+          <a
+            href="./assets/Resume_Farhan Ahmad Nafis.pdf"
+            class="btn btn-primary"
+            >Latest Resume (August '25)</a
+          >
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Farhan's LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/farhan-ahmad-nafis/'"
+          />
+          <img
+            src="./assets/scholar.png"
+            alt="Farhan's LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://scholar.google.com/citations?user=eGyTeDYAAAAJ&hl=en'"
+          />
+          <img
+            src="./assets/researchgate.png"
+            alt="Farhan's LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.researchgate.net/profile/Farhan-Nafis-2?ev=hdr_xprf'"
+          />
+          <img
+            src="./assets/orcid.png"
+            alt="Farhan's LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://orcid.org/0009-0007-4273-9849'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Farhan's Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/FarhanNafis73'"
+          />
+        </div>
+      </div>
+      <div class="hero-image fade-in">
+        <img
+          src="./assets/bg.png"
+          alt="Farhan's profile picture"
+          class="profile-img"
+        />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-content">
+        <div class="about-image fade-in">
+          <img src="./assets/about.jpg" alt="About Farhan" class="about-img" />
+        </div>
+        <div class="about-text fade-in">
+          <ul class="about-list">
+            <li>Prospective Ph.D. student <strong>(Fall 2026)</strong></li>
+            <li>
+              Research interests are in aerial and underwater autonomous robots, human-computer/robot interaction, search and rescue robotics, camera engineering, and autonomous vehicles
+            </li>
+            <li>Specialized in human-computer/robot interaction</li>
+            <li>
+              B.Sc in Electrical and Electronic Engineering from
+              <a
+                href="https://www.bracu.ac.bd/"
+                style="color: var(--accent-color)"
+                >Brac University</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-experience">
+      <h2 class="section-title fade-in">Work Experience</h2>
+      <div class="plain-content fade-in">
+        <!-- Template for work experience entries -->
+        <!-- Copy and modify this template for each job -->
+        <div class="plain-item">
+          <h3 class="plain-title">Research Assistant - Brac University</h3>
+          <p class="plain-duration">04/2025 - 05/2025</p>
+          <ul class="plain-list">
+            <li>Prepared proposal for a project titled "Secure and Scalable Federated Learning leveraging TinyML and incorporating multi-mode communication protocols”</li>
+            <li>Data collection for a study that focuses on AI in Engineering Education in Bangladesh</li>
+          </ul>
+          <br>
+          <h3 class="plain-title">Teaching Assistant - Brac University</h3>
+          <p class="plain-duration">01/2025 - 05/2025</p>
+          <ul class="plain-list">
+            <li>Prepared course materials and took tutorial sessions for students</li>
+            <li>Gave regular consultation to students to improve their understanding</li>
+            <li>Assigned courses: 1) Electromagnetic waves and fields 2) Electrical Circuits I (DC Circuits)</li>
+          </ul>
+
+          <br>
+          <h3 class="plain-title">Research Assistant (HCI/Robotics)- Brac University</h3>
+          <p class="plain-duration">09/2024 - 03/2025</p>
+          <ul class="plain-list">
+            <li>Developed obstacle detection system for a project titled "Brain-Controlled Wheel Chair"</li>
+            <li>Worked with EEG headband and acquired brain-signal</li>
+            <li>Used filters to remove noise e.g. 50Hz powerline noise, high-frequency noise, low-frequency rumble and ECG, EMG frequencies using FFT</li>
+            <li>Processed the filtered signal to generate patterns</li>
+            <li>Created a control algorithm to control a two-motor (24V, 250W) wheelchair using brain signal and compared P300 and motor imagery (MI) mechanisms</li>
+            <li>Created manual control system (Remote) using NoduMCU’s communication protocol to drive the wheelchair</li>
+            <li>Got familiar with MCU-MCU communication, UART, I2C, BLE, ESPNOW, Parallel computing using ESP (Dual-core) and deployed them into the system</li>
+          </ul>
+
+          <br>
+          <h3 class="plain-title">Student Tutor (ST) (Undergraduate equivalent of TA) - Brac University</h3>
+          <p class="plain-duration">01/2023 - 04/2024</p>
+          <ul class="plain-list">
+            <li>Prepared materials and instructed the students on three different assigned courses (up to junior/third year engineering level) across four semesters.</li>
+            <li>Assigned courses: 1) Electromagnetic Waves and Fields 2) Microprocessors/Embedded Systems Design 3) Machine Learning 4) Electrical Circuits II</li>
+            <li>Worked closely with the course faculty to improve the quality of instructions for the students</li>
+            <li>Provided regular tutorials and consultations to assist the students in addition to the class lectures</li>
+          </ul>
+
+          <br>
+          <h3 class="plain-title">Chairperson - <a href="https://ieeebracu.com/" style="color: var(--accent-color)">IEEE Brac University Student Branch</a></h3>
+          <p class="plain-duration">01/2023 - 12/2023</p>
+          <ul class="plain-list">
+            <li><a href="https://drive.google.com/file/d/1ufARshx3b0nA_BA3q8SPh0A6VquRJ5Gz/view?usp=sharing" style="color: var(--accent-color)">Appointment letter</a></li>
+            <li>Led five IEEE Chapters (IEEE PES, CS, RAS, AESS, and ComSoc) under the IEEE BracU SB during a one-year tenure.</li>
+            <li>Organized seminars, webinars, and workshops for the members of IEEE, Department of EEE, and Department of CSE of Brac University.</li>
+            <li>Organized membership drives for the student branch and hosted events with Industry and Academic professionals.</li>
+          </ul>
+        </div>
+
+        <!-- Add more plain-item divs as needed -->
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 class="section-title fade-in">Education</h2>
+      <div class="plain-content fade-in">
+        <div class="plain-item">
+          <h3 class="plain-title">
+            B. Sc in Electrical and Electronic Engineering
+          </h3>
+          <p class="plain-subtitle">
+            <a
+              href="https://www.bracu.ac.bd/"
+              style="color: var(--accent-color)"
+              >Brac University</a
+            >
+          </p>
+          <p class="plain-description">Graduated (Transcripts and Certificates collected)</p>
+          <!-- Add more details like graduation year, CGPA, etc. -->
+        </div>
+
+        <div class="plain-item">
+          <h3 class="plain-title">Higher Secondary Certificate (HSC)</h3>
+          <p class="plain-description">
+            St. Joseph Higher Secondary School
+          </p>
+        </div>
+
+        <div class="plain-item">
+          <h3 class="plain-title">Secondary School Certificate (SSC)</h3>
+          <p class="plain-description">
+            St. Joseph Higher Secondary School
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="technical-skills">
+      <h2 class="section-title fade-in">Technical Skills</h2>
+      <div class="skills-grid-container">
+        <div class="skills-category fade-in">
+          <h3 class="category-title">Platform and Tools</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Proteus</span>
+            <span class="skill-tag">LTspice</span>
+            <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Jupyter</span>
+            <span class="skill-tag">ROS 2 (Learning)</span>
+            <span class="skill-tag">CoppeliaSim (Learning)</span>
+            <span class="skill-tag">Lab Instrumentation</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">Data Visualization</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Google Sheets</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">3D Design and Prototyping</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Solidworks</span>
+            <span class="skill-tag">Autodesk Fusion360</span>
+            <span class="skill-tag">Creality Slicer</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">PCB Design</h3>
+          <div class="skills-list">
+            <span class="skill-tag">EasyEDA</span>
+            <span class="skill-tag">Altium Designer</span>
+            <span class="skill-tag">KiCAD</span>
+            <span class="skill-tag">Saturn PCB Toolkit</span>
+            <span class="skill-tag">Autodesk Eagle</span>
+            <span class="skill-tag">Fritzing</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">Programming</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Embedded C</span>
+            <span class="skill-tag">C++ (Learning)</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Github</span>
+            <span class="skill-tag">LaTeX</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">ML/AI Frameworks</h3>
+          <div class="skills-list">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">PyTorch (Learning)</span>
+          </div>
+        </div>
+
+        <div class="skills-category fade-in">
+          <h3 class="category-title">Hardware</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Sensors</span>
+            <span class="skill-tag">Actuators</span>
+            <span class="skill-tag">Hardware Prototyping</span>
+            <span class="skill-tag">Arduino</span>
+            <span class="skill-tag">NodeMCU</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">Analog/Digital ICs</span>
+            <span class="skill-tag">Soldering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2 class="section-title fade-in">Research</h2>
+      <div class="plain-content fade-in">
+
+        <!-- Publications Section -->
+        <div class="plain-subsection">
+          <h3 class="plain-subtitle">Publications</h3>
+          <div class="plain-item">
+            <h4 class="plain-item-title">CNN and Transfer Learning-based Deep Learning Architectures for Alzheimer’s Disease Detection from MRI Scan: A Comparative Analysis</h4>
+            <p class="plain-authors">Farhan Ahmad Nafis; Nahiduzzaman Akib; Mehraj Hossain; Maimuna Zaman Farasha; et al.</p>
+            <p class="plain-venue">BECITHCON, 2024</p>
+            <p class="plain-link">DOI: <a href="https://doi.org/10.1109/BECITHCON64160.2024.10962572">[DOI]</a></p>
+          </div>
+
+          <div class="plain-item">
+            <h4 class="plain-item-title">An Efficient IoT-based Fire Detection System Using Quantized Deep Learning Model on Resource-Constrained Devices</h4>
+            <p class="plain-authors">Farhan Ahmad Nafis; Nahiduzzaman Akib; Gourab Saha; Md. Saadman Sakib Alvi; Md. Imtiaz Ahammed; Affifa Jahan Anonna</p>
+            <p class="plain-venue">ICCIT, 2024</p>
+            <p class="plain-link">DOI: <a href="https://doi.org/10.1109/ICCIT64611.2024.11021729">[DOI]</a></p>
+          </div>
+
+          <div class="plain-item">
+            <h4 class="plain-item-title">Voting and Stacking-Based Ensemble methods to detect Bengali Spam SMS with proposal for comprehensive dataset</h4>
+            <p class="plain-authors">Md. Saadman Sakib Alvi; Farhan Ahmad Nafis; Nahiduzzaman Akib; Sk Tahmed Salim Rafid; Affifa Jahan Anonna; Gourab Saha</p>
+            <p class="plain-venue">ECCE, 2025</p>
+            <p class="plain-link">DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013231">[DOI]</a></p>
+          </div>
+
+          <div class="plain-item">
+            <h4 class="plain-item-title">A Reliable Robotic Solution for Hospital Logistics: Implementation of Intelligent Pathfinding and Control Strategy</h4>
+            <p class="plain-authors">Farhan Ahmad Nafis; Md. Saadman Sakib Alvi; Sk Tahmed Salim Rafid; Nahiduzzaman Akib; Affifa Jahan Anonna; Gourab Saha</p>
+            <p class="plain-venue">ECCE, 2025</p>
+            <p class="plain-link">DOI: <a href="https://doi.org/10.1109/ECCE64574.2025.11013144">[DOI]</a></p>
+          </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="plain-subsection">
+          <h3 class="plain-subtitle">Projects</h3>
+          <div class="plain-item">
+            <!-- <h4 class="plain-item-title">[To be updated]</h4> -->
+            <!-- <p class="plain-description">[Brief project description]</p>
+            <p class="plain-tech">[Technologies used]</p>
+            <p class="plain-link">
+              <a href="[PROJECT_LINK]">[Link to project/GitHub/Demo]</a>
+            </p> -->
+
+            <ul class="plain-list">
+              <li>[Embedded Systems] Title: ATmega-32 based IoT integrated ATM machine system with real-time monitoring and intrusion detection system</li>
+              <li>[Digital Logic Design] Title: Digital electronics-based voting system suitable for four candidates</li>
+              <li>[Machine Learning] Shopping cart product identification system using YOLO algorithm and hardware implementation on NodeMCU platform. Used YOLOv5 and YOLOv8(s and n)-based object detection model and manual annotation</li>
+              <li>[Artificial Intelligence] Title: Heart failure prediction using Decision Tree, SVM, and KNN algorithms. Used EDA and CSV-based numerical data for supervised learning.</li>
+              <li>[Artificial Intelligence] Title: Image Segmentation using MobileNetV2</li>
+              <li>[Image Processing] Built several popular CNN architectures from scratch CNN blocks in using Keras like AlexNet, VGG16, VGG19, and InceptionV2 to classify four classes of images</li>
+              <li>[Thesis/Final Year Design Project] IoT-based Mobile Healthcare System with Integrated Real-Time ECG Monitoring <a href="https://drive.google.com/file/d/1oE8F__PW43WEfSI02kbkDOTPC_PYxmIZ/view?usp=sharing" style="color: var(--accent-color)">- Thesis can be found in this link</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Presentations Section -->
+         <!-- To be developed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title fade-in">Contact Me</h2>
+      <div class="plain-content fade-in">
+        <!-- Template for contact information -->
+        <!-- Copy and modify these templates as needed -->
+        <div class="plain-item">
+          <p>
+            <strong>Email:</strong>
+            <ul class="plain-list">
+              <li> <a href="farhan.ahmad.nafis@gmail.com">farhan.ahmad.nafis@gmail.com</a> </li>
+              <li> <a href="farhan.ahmad.nafis@ieee.org">farhan.ahmad.nafis@ieee.org</a> </li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="plain-item">
+          <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/farhan-ahmad-nafis/">Farhan Ahmad Nafis</a>
+          </p>
+        </div>
+
+        <div class="plain-item">
+                <p><strong>Research Gate:</strong> <a href="https://www.researchgate.net/profile/Farhan-Nafis-2?ev=hdr_xprf">Farhan Ahmad Nafis</a></p>
+            </div>
+            
+            <div class="plain-item">
+                <p><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=eGyTeDYAAAAJ&hl=en">Farhan Ahmad Nafis</a></p>
+            </div>
+            
+            <div class="plain-item">
+                <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0007-4273-9849">0009-0007-4273-9849</a></p>
+            </div>
+            
+            <div class="plain-item">
+                <p><strong>GitHub:</strong> <a href="https://github.com/FarhanNafis73">FarhanNafis73</a></p>
+            </div>
+
+            <div class="plain-item">
+                <p><strong>GrabCAD:</strong> <a href="https://grabcad.com/farhan.nafis-1/models">Farhan Nafis</a></p>
+            </div>
+
+            <div class="plain-item">
+                <p><strong>Behance:</strong> <a href="https://www.behance.net/farhanahmadnafis">Farhan Ahmad Nafis</a></p>
+            </div>
+
+            <div class="plain-item">
+                <p><strong>Soundcloud:</strong> <a href="https://soundcloud.com/farhan-nafis-449941573">Farhan Ahmad Nafis</a></p>
+            </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Farhan Ahmad Nafis. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
